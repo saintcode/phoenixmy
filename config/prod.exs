@@ -19,7 +19,7 @@ config :phoenixmy, Phoenixmy.Endpoint,
   secret_key_base: 'asgiklhjklFGFGFYsdfasdfasdfasdfasdfasKHKUVUGIUFDF'
 
 # Configure your database
-config :hello_phoenix, HelloPhoenix.Repo,
+config :phoenixmy, HelloPhoenix.Repo,
   adapter: Ecto.Adapters.Postgres,
   url: System.get_env("DATABASE_URL"),
   pool_size: String.to_integer(System.get_env("POOL_SIZE") || "10"),
